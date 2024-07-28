@@ -1,28 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projects\\github-actions-course\\03-app-dotnet\\app-dotnet.csproj": {}
+    "/Users/suyashgaonkar/Documents/gh-dotnet/app-dotnet.csproj": {}
   },
   "projects": {
-    "D:\\Projects\\github-actions-course\\03-app-dotnet\\app-dotnet.csproj": {
+    "/Users/suyashgaonkar/Documents/gh-dotnet/app-dotnet.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\github-actions-course\\03-app-dotnet\\app-dotnet.csproj",
+        "projectUniqueName": "/Users/suyashgaonkar/Documents/gh-dotnet/app-dotnet.csproj",
         "projectName": "app-dotnet",
-        "projectPath": "D:\\Projects\\github-actions-course\\03-app-dotnet\\app-dotnet.csproj",
-        "packagesPath": "C:\\Users\\hodellai\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\github-actions-course\\03-app-dotnet\\obj\\",
+        "projectPath": "/Users/suyashgaonkar/Documents/gh-dotnet/app-dotnet.csproj",
+        "packagesPath": "/Users/suyashgaonkar/.nuget/packages/",
+        "outputPath": "/Users/suyashgaonkar/Documents/gh-dotnet/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\hodellai\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/Users/suyashgaonkar/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "https://pkgs.dev.azure.com/houssemdellai/MyLibrary-Nuget/_packaging/MyLibrary-Nuget-02/nuget/v3/index.json": {},
-          "https://pkgs.dev.azure.com/houssemdellai/cardif-nuget/_packaging/cardif/nuget/v3/index.json": {},
-          "https://pkgs.dev.azure.com/houssemdellai/cardif-nuget/_packaging/cardif01/nuget/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
@@ -34,6 +32,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -45,10 +48,25 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.32, 6.0.32]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.osx-arm64",
+              "version": "[6.0.32, 6.0.32]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.32, 6.0.32]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -57,7 +75,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.303/RuntimeIdentifierGraph.json"
         }
       }
     }

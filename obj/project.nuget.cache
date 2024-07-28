@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "yvym+Byn0VuTbR/7gNMxcYbdhjxldVFlneb92phLhUOBuKb/QmTG7L592LvGWIQKl8R1T49jayXCl857dQ7vwA==",
+  "dgSpecHash": "i3QvG5LIxxM=",
   "success": true,
-  "projectFilePath": "D:\\Projects\\github-actions-course\\03-app-dotnet\\app-dotnet.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "/Users/suyashgaonkar/Documents/gh-dotnet/app-dotnet.csproj",
+  "expectedPackageFiles": [
+    "/Users/suyashgaonkar/.nuget/packages/microsoft.netcore.app.ref/6.0.32/microsoft.netcore.app.ref.6.0.32.nupkg.sha512",
+    "/Users/suyashgaonkar/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.32/microsoft.aspnetcore.app.ref.6.0.32.nupkg.sha512",
+    "/Users/suyashgaonkar/.nuget/packages/microsoft.netcore.app.host.osx-arm64/6.0.32/microsoft.netcore.app.host.osx-arm64.6.0.32.nupkg.sha512"
+  ],
   "logs": []
 }
