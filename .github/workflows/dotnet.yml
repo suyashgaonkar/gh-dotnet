@@ -15,7 +15,7 @@ jobs:
         dotnet-version: 8.0.x
         cache-dependency-path: |
           './appsettings.Development.json'
-          'appsettings.json'                            
+          './appsettings.json'                            
     - name: Restore dependencies
       run: dotnet restore gh-dotnet.sln
     - name: Build
